@@ -14,9 +14,15 @@ Assumptions:
 ● The states have been defined in the following way
 
 INITIAL = 8'b0000_0001,
+
 GENERATE_PIECE = 8'b0000_0010,
+
 ROTATE_PIECE = 8'b0000_0100,
+
 COLLISION = 8'b0000_1000,//bottom collision with other blocks
+
 LOSE = 8'b0001_0000,//at the top collision
+
 CLEAR_ROW = 8'b0010_0000,
+
 UNKNOWN = 8'bxxxx_xxxx;
