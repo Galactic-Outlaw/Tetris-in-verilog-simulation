@@ -1,0 +1,2 @@
+# Tetris-in-verilog-simulation
+Tetris is a retro game where the objective for the player is to move blocks of different shapes to form as many lines as possible which then gets cleared. If the player arranges the block in such a way that the blocks touch the roof the game the game is over. Tetris was one of my favourite games as a toddler and recreating it using verilog sparked interest within me.
